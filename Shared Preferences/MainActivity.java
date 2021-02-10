@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String username = uname.getText().toString();
                 String password = pwd.getText().toString();
-                if(username.equals("Laxmi") && password.equals("Laxmi")){
+                if(username.equals("Ramya") && password.equals("Ramya")){
                     SharedPreferences.Editor editor = pref.edit();
                     editor.putString("username",username);
                     editor.putString("password",password);
